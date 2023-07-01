@@ -38,9 +38,15 @@ body {
     color: #400040;
   }
   
-  .input-section input[type="text"], .input-section input[type="number"], .input-section input[type="date"] {
+  .input-section input[type="text"], .input-section input[type="number"] {
     padding: 10px;
     margin-right: 10px;
+  }
+
+  .input-section input[type="date"] {
+    padding: 10px;
+    margin-right: 10px;
+    width: 160px;
   }
   
   .input-section button {
