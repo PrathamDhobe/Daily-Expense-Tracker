@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #ffff;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #400040;
+    
+  }
+  h2{
+    text-align: center;
+    color: #400040;
+  }
+  h1 span{
+    color: #400040;
+    font-weight: bolder;
+  }
+  
+  .input-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  
+  .input-section label {
+    font-weight: bold;
+    font-size: large;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: #400040;
+  }
+  
+  .input-section input[type="text"], .input-section input[type="number"], .input-section input[type="date"] {
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .input-section button {
+    width: 150px;
+    height: 45px;
+    border: 3px solid #400040;
+    border-radius: 50px;
+    transition: all 0.3s;
+    cursor: pointer;
+    background: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .input-section button:hover{
+    background: #400040;
+    color: white;
+    font-size: 1.3em;
+  }
+  
+  .expenses-list {
+    margin: 30px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #400040;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #400040;
+    color: white;
+  }
+  
+  tfoot td {
+    font-weight: bold;
+  }
+  
+  .delete-btn {
+    padding: 5px 10px;
+    background-color: #9f149f;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: azure;
+  }
+ 
+  
+  
