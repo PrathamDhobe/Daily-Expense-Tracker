@@ -24,7 +24,7 @@ body {
   .input-section {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     align-items: center;
     
   }
@@ -37,11 +37,16 @@ body {
     margin-top: 10px;
     color: #400040;
   }
-  
-  .input-section input[type="text"], .input-section input[type="number"], .input-section input[type="text"] {
-    padding: 10px;
-    margin-right: 10px;
+  input[type="date"]{
+    font-size: 1.4rem;
+    color: gray;
+    font-weight: 100;
   }
+  .input-section input[type="text"], .input-section input[type="number"], .input-section input[type="text"] {
+    padding: 7.9px;
+    /* margin-right: 10px; */
+  }
+ 
   
   
   .input-section button {
@@ -95,5 +100,30 @@ body {
     color: azure;
   }
  
-  
-  
+  .input-section div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  @media (max-width:700px) {
+    .input-section ,input[type="date"],input[type="text"], .input-section input[type="number"], .input-section input[type="text"] {
+      font-size: 1rem;
+      margin-top: 10px;
+    }
+    input[type="date"]{
+      font-size: 1.65rem;
+      margin-left: 30px;
+    }
+    .expenses-list {
+      width: 100vw;
+      margin: 0px;
+    }
+    label{
+      margin: 10px;
+    }
+    .input-section div{
+      display: flex;
+      flex-direction: row;
+      margin: 10px 0;
+    }
+  }
